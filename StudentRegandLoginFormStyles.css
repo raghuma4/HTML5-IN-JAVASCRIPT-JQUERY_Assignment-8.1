@@ -1,0 +1,123 @@
+ 		
+ 		/* Create form style */
+ 		form
+ 		{
+ 			width: 60%; 			 
+ 			padding-bottom: 300px;
+ 			margin-top: 100px;
+ 			margin-left: 220px;
+ 			background: #f2f2f2;
+ 		} 		 
+
+ 		/* Set float to left so that registration and login divisions are displayed side by side */
+ 		div
+ 		{
+ 		 	float: left;
+ 		}
+
+ 		/* style for registration div */
+ 		#registrationdiv
+		{
+			width: 50%;	
+			margin-top: 10px;				 			 
+		}
+
+		/* style for login div */
+		#logindiv
+		{
+			 background: #003366;
+			 padding-bottom: 70px;
+			 margin-top: 8px;
+			 padding-top: 5px;
+			 margin-top: 5px;
+			 width: 48%;	
+		}
+		 
+		/* Style for text and password fields */
+		input[type=text], input[type=password]
+		{
+			padding: 8px 12px;
+			margin: 12px 15px;				 	
+			width: 75%;			
+			border: 1px solid #ccc;
+    		border-radius: none;	
+    		display: block;
+		}
+
+		/* pseudo class styles for text and password */
+		input[type=text]:required, input[type=password]:required
+		{
+			border:1px solid red;
+		}
+
+		/* style for button 
+			Set background to transparent*/
+		button
+		{
+			padding: 5px 25px;			
+			border-color:  #000080;
+			color: #000080;
+			background-color: transparent;
+		}
+
+		/* style for register button */
+		#btnregister
+		{
+			margin-left: 240px;
+			margin-top: 10px;
+		}
+
+		/* style for login button */
+		#btnlogin
+		{
+			margin-left: 105px;
+			margin-top: 5px;
+			padding-left: 35px;
+			padding-right: 35px;
+			border-color: yellow;
+			color: white;
+		}
+
+		/* style for Remember me check box */
+		#remembermechkbox
+		{
+			margin-left: 20px;
+			margin-top: 5px;
+		}
+
+		/* style for h1 */
+	    h1
+	    {
+	    	color: #000080;
+	    	margin-top: 10px; 
+	    	margin-left: 5px; 
+	    	font-family: sans-serif;
+	    }
+
+	    /* style for h4 */
+		h4
+		{
+			color: #808080; 
+			display: inline;
+		}
+
+		/* style for paragraph with id note */
+		#note
+		{
+			margin: 20px 10px; 
+			color: #808080;
+		}
+
+		/* style for span text  */
+		.forgotpwdspan
+		{
+			color: white; 
+			font-size: 12px; 
+			margin-left: 260px; 
+			margin-top: 10px; 
+			display: block;			 
+		}
+
+
+		 
+	 
