@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student registration and login form</title>
+	<link rel="stylesheet" type="text/css" href="StudentRegandLoginFormStyles.css">
+	<script type="text/javascript" src="StudentFormjs.js"></script>
+</head>
+<body> 
+<form>
+
+ <h1>
+ 	Enter the System
+ </h1>
+
+ <p id="note">It is necessary to login in to your account in order to signup for a course</p> 
+ 
+ <!-- Registration form division -->
+ <div id="registrationdiv">
+
+ 	<h4 style="margin-left: 15px;">ARE YOU NEW?</h4>
+ 	<h4>REGISTER</h4>
+
+    <!-- Use the placeholders to display watermark text in the text boxes -->
+	<input type="text" id="regusername" name="regusername"  placeholder="User name" />
+
+	<input type="text" id="email" name="email" placeholder="Email"/>
+
+	<input type="password" id="regpwd" name="regpwd"  placeholder="Password"/>
+
+	<input type="password" id="confirmpwd" name="confirmpwd"  placeholder="Confirm Password"/>
+
+	<!-- Use a javascript function to validate registration form fields
+		red border around the text box will be displayed if text box value is empty -->
+	<button id="btnregister" onclick="validaterequiredfields();">Register</button>
+
+  </div>
+
+<!-- Login form division -->
+  <div id="logindiv">
+
+ 	<h4 style="color: white; margin-left: 20px;">ALREADY A STUDENT? LOGIN</h4>
+ 	
+ 	 <!-- Use the placeholders to display watermark text in the text boxes -->
+	<input style="width: 80%; margin-left: 20px;" type="text" id="loginusername" name="loginusername"  placeholder="User name" />
+
+	<input style="width: 80%; margin-left: 20px;" type="password" id="loginpwd" name="loginpwd"  placeholder="Password"/> 
+
+	<input  type="checkbox" name="remembermechkbox" id="remembermechkbox">
+	 <span style="color: white;">
+	 	Remember me?
+	 </span>
+
+	<button id="btnlogin">Login</button>
+
+	<a href="#">
+		<span class="forgotpwdspan">
+	 		Forgot Password?
+	 	</span>		
+	</a>
+
+  </div>
+
+ 
+
+</form>
+ 
+
+</body>
+</html>
